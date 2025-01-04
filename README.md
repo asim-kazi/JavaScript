@@ -1,2 +1,2 @@
 # JavaScript
-practise all Basic javaScript codes..
+practise all Basic javaScript codes...
