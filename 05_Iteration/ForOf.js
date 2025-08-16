@@ -9,7 +9,7 @@ for (const num of arr) {
     //console.log(num);
 }
 
-const greetings = "Hello world!"
+const greetings = "Hello Asim!"
 for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
