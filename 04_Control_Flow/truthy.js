@@ -24,12 +24,13 @@ if (Object.keys(emptyObj).length === 0) {       // "Object.keys(emptyObj)" -> th
 }
 
 // Nullish Coalescing Operator (??): null undefined
+// It is basically used to handle null and undefined values to donot confuse during projects..
 
 let val1;
-// val1 = 5 ?? 10   // It retuns
-// val1 = null ?? 10
-// val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+// val1 = 5 ?? 10           // It returns 5
+// val1 = null ?? 10        // if null comes then it takes 10 which come from any other fucntion, but dont take null => 10
+// val1 = undefined ?? 15    // same case not take undefined it gives => 15
+val1 = null ?? 10 ?? 20        // Not recommended
 
 
 
@@ -40,4 +41,5 @@ console.log(val1);
 // condition ? true : false
 
 const iceTeaPrice = 100
-iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+// variable , conditon ,         if                ,     else
+iceTeaPrice >= 80 ? console.log("Greater than 80") : console.log("less than 80")
